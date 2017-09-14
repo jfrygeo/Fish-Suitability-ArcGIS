@@ -1,0 +1,498 @@
+{
+  "type" : "CIMLayerDocument",
+  "version" : "2.0.0",
+  "build" : 8933,
+  "layers" : [
+    "CIMPATH=map/suitablesalinityareas.xml"
+  ],
+  "layerDefinitions" : [
+    {
+      "type" : "CIMRasterLayer",
+      "name" : "Suitability Output",
+      "uRI" : "CIMPATH=map/suitablesalinityareas.xml",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant",
+        "start" : 978307200000
+      },
+      "metadataURI" : "CIMPATH=Metadata/7b3b7007911a0ed35a3864781d50e613.xml",
+      "description" : "SuitableSalinityAreas",
+      "layerElevation" : {
+        "type" : "CIMLayerElevationSurface",
+        "mapElevationID" : "{034E24AA-5178-4456-BFEE-4DB57FCED65C}"
+      },
+      "expanded" : true,
+      "layerType" : "Operational",
+      "showLegends" : true,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "dataConnection" : {
+        "type" : "CIMStandardDataConnection",
+        "workspaceConnectionString" : "DATABASE=.\\HYCOM_Salinity.gdb",
+        "workspaceFactory" : "FileGDB",
+        "dataset" : "SuitableSalinityAreas",
+        "datasetType" : "esriDTRasterDataset"
+      },
+      "colorizer" : {
+        "type" : "CIMRasterStretchColorizer",
+        "resamplingType" : "NearestNeighbor",
+        "noDataColor" : {
+          "type" : "CIMRGBColor",
+          "values" : [
+            255,
+            255,
+            255,
+            0
+          ]
+        },
+        "backgroundColor" : {
+          "type" : "CIMRGBColor",
+          "values" : [
+            255,
+            255,
+            255,
+            0
+          ]
+        },
+        "colorRamp" : {
+          "type" : "CIMMultipartColorRamp",
+          "colorSpace" : {
+            "type" : "CIMICCColorSpace",
+            "url" : "Default RGB"
+          },
+          "colorRamps" : [
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "Default RGB"
+              },
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  115,
+                  0,
+                  0,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  255,
+                  0,
+                  0,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "Default RGB"
+              },
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  255,
+                  0,
+                  0,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  255,
+                  255,
+                  0,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "Default RGB"
+              },
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  255,
+                  255,
+                  0,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  233,
+                  255,
+                  190,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "Default RGB"
+              },
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  233,
+                  255,
+                  190,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  38,
+                  115,
+                  0,
+                  100
+                ]
+              }
+            }
+          ],
+          "weights" : [
+            0.25,
+            0.25,
+            0.23999999999999999,
+            0.26000000000000006
+          ]
+        },
+        "colorScheme" : "Black to White",
+        "customStretchMax" : 1,
+        "gammaValue" : 1,
+        "hillshadeZFactor" : 1,
+        "maxPercent" : 0.5,
+        "minPercent" : 0.5,
+        "standardDeviationParam" : 2,
+        "statsType" : "Dataset",
+        "stretchClasses" : [
+          {
+            "type" : "CIMRasterStretchClass",
+            "label" : "0"
+          },
+          {
+            "type" : "CIMRasterStretchClass",
+            "value" : 0.5
+          },
+          {
+            "type" : "CIMRasterStretchClass",
+            "label" : "1",
+            "value" : 1
+          }
+        ],
+        "stretchStats" : {
+          "type" : "StatsHistogram",
+          "min" : 0,
+          "max" : 1,
+          "mean" : 0.76080516188317926,
+          "stddev" : 0.29264676947452123,
+          "limitMin" : 0,
+          "limitMax" : 1,
+          "histogram" : [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1387115,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5935587,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            12722521,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3878383,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2725421,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            25013469
+          ],
+          "nsamples" : 51662496,
+          "resolution" : 0.0039215686274509803
+        },
+        "stretchType" : "PercentMinimumMaximum"
+      }
+    }
+  ],
+  "binaryReferences" : [
+    {
+      "type" : "CIMBinaryReference",
+      "uRI" : "CIMPATH=Metadata/7b3b7007911a0ed35a3864781d50e613.xml",
+      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20170808</CreaDate><CreaTime>16004400</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>Suitability Output</resTitle></idCitation><searchKeys><keyword>Suitability output</keyword></searchKeys><idPurp>Suitability output</idPurp><idAbs>&lt;DIV STYLE=\"text-align:Left;font-size:12pt\"&gt;&lt;P&gt;&lt;SPAN&gt;An output of suitability &lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;</idAbs><idCredit></idCredit><resConst><Consts><useLimit></useLimit></Consts></resConst></dataIdInfo><Binary><Thumbnail><Data EsriPropertyType=\"PictureX\">/9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCACFAMgDAREAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDnNR1S71a/e9vZTNK5z8xyAPQegr5mc5TfNJnkSk5O7I7q8lu/K8xiRFGI0GeAB6VFhNtlbNAgzTA3/CPiM+G9ZF06u9u6FJUU9R2P4GtaNX2Uua1zSlU5JXPdtMuYtQ01LiBi0Uq7kOMcHmvap2lT0PSi+aN0FxuG0Z+V8d6E7DJ41wM9DmqSGQXAUup43EnJFD1BkIguGIRLgn+8uwCl7OTCw5AYSQSRnIJxkqfWktH7wjwjxXaajaa9Mup7TM3KsuApToMAdBx0rw6lJ0pcp5tdzlNuo7s1/h/4i0rw/d3b6ihWSVVEdwI95TGcj1Gcjp6V0YWrCm3zFUKkYN8wzxx4yHiWaK3tRKlnASQWbHmk45K9sc4+valicR7XRbIVet7R2WxyFcpgFABQAUAa3h3QJ/EWomzgkWPahdnboAK1pUnUdkaU6bm7Ik1/wxqHhx4xfiLEpPllGyHA7+3XviirRlT+IKlOUNzFrIzCgAoAKACgBSaQwzTEJQAUAAGTigD6BtJtP8O+CrV7q+WKG2gVpJFbqcc49ea+hopQppM9nD0pSShDVnLeG/iZZ+IvGQ0eGKQ2MkREUs/DM45Jx2BH40lUi5WPSrZfKlR53uei2pHnNHydp4NXG1zzhJri2WTcJIyw9+lOV1sAONP4MhiBJyMnvVAPeGNeAqhSOCKmcboGjj/FnhW3162xkRXcfEMx6D/ZPt/KuGtRVVeZz1aSqLzPHdU0q70e9a1vYvLkHI5yGHqD3rzJwlB2kefKDi7MpVBIvGBxzQAlABQAUAek/C/SLxLmfUWiYW0sJRHHQndg/TpXoYKnK7k9jswsHfmJfipqum3MFpYQlJb2BzvYHmMY5B+vH5U8dUg7RW6HipRdktzzGvOOIKACgAoAKACgAoAKACgAoAnW5OyOOZFniQ5WOXJUfhTTktmdeGx1fDfwpWO18HaRpOrazZ6np0MOn3tk+6aBSSsqnuM9KdOvUhNXd0e7Qzf29GdOsvea0PXbbajF2JyMk178Frc4EPa5sGfAVGbP9zpWrGTk23TyVJ642UKSAZPcxtCy4bnjpU86C5mXDSNESiAk8DPT/Oaw5bSION+I2kT3OhfazbxmS0ZW8wE7vLPBH0yQfwrkxVO8L22OfEQvG/Y8krzTgCgAoAKACgD0b4a+JZ7XdoyRGV5pMxFmAVBjn9f516OCr2/dnbhKivyMzfEfhPUptdv3toZbgiRnaXI2tnkAe/tWdfDyc24oyq025OxyM9pcWzMs8EkZU4bcpGD/AJBrkcZR3Rg00Q1IgoAKACgAoAKACgAoAvX8CQ2unlFAMkG9z3Lb2/pitJxSUfQprRFGsySa2lmimUwStG5ONytigabWx7z4ee/ttBge+nWSZUYGQHORjg5r3aPNGKuz1KLaj7xz/hj4gWNtbtDq2oSS3LyNmRl4XnjmuKjjXGUvaP0NsRjMPOS9krafid5HdAsXQq6vhlbPGK9CNVSSknoybjHFy6u6xx4z8vzdaJQTV0JoYpfyWWRVDdABUpagjL8YGJvCmpB3Kj7M53e+OB+JwKzr2dN+hnW+Bnz9XinlhQAUAFABQBu+Htun6hY3t/b7rCeQx+YSRjsSCDwRW9H3JKUlozSnZNOWwy+1KWz1K7jsLo+QtwXVw5JfDZVs9zSlNxk1F9QlKzdmbV9He+J7iys1ZFv50DzN52Y5tvCkejDL5FbzUqto9X/X+ZpJObS6nKX9jPpt/NZ3K7ZoWKsBXJKLi7MwlFxdmVqkQUAFABQAUAFABQBJMxeTl92AFBxjgDA/lTe42R0hCrncMHBzQB614g1Oey+HNqfMxcTRpHkDBOev6V6tWbjh076ndKXLS82eTV5JxHsXw+1UaloK211OpngYxopbDMvUcVrh67ozt0Z6GHnzQs+h2iEQhRCSZMZKueo+le/SqQnomdFzN1rWdN0e2hlvrlIS24ooBLSEdQB+VVUcYq8jSnTlV+E8q8T+NpNYgnsoIfKtWPGWJY8g89u2MV4+IxXtFyx2OXF1KMYOnB3ffocdXEeYFABQAUAT2ds95dxwIOXYAn0Hc1UY8zsNK7saGtGCG++xW1151jCT5YVsgHufzrSq0pcqeiKnZOy2NzwM+gzM+natbCeW5lAhyv3T0HP1P6VvhPZP3ai3NaLh8MkTabbR6D4gju0iW5txcPCsvISHLKFc+nU/WrpL2dRStdX+4cYqMvI5nX7u41DV5ru6hWKaTh9vQlflJH4rXHVbcrtGM23K7MysyAoAKACgAoAKACgAoAKAFBIII6igD3G30O213whYi5LTPHCHQ99xFeuqSnTVz0owjOnrqeLXlvJaXk1vMhSSNyrKexryZpxk0zz2rOzG2t1NZ3CT20rRyocqynBFS0CbTuj0jRvid5dvdXGpxI9zHGqW6Iv3j3JP5V14OpCgpN7nXHFaXkcV4g8S3niK7W5uQiFFKKqdFBOT+fH5VFbETrfFsRLF1HD2a0T3MWsDlCgAoAKAHRxtLIqKMsxwKaV3YC/cy29nG9paHzGOBJcevsvoKuTUfdiW2lojOrMg1fDup3mk6zDcWMQllJCGMrncCRx7fWtaM5QmnE0pycZXRv8A/CP+J7rUJNC8uWC3nKXEiFsoq5Cgk98DHHtW/sq0pez2T1NPZ1G+QueLvCr6P4SsZWl82eB/LmZeFwSxBx65bGfenXouFJeRVWlyQTPP64jlCgAoAKACgAoAKAHKFJO4kDB6DPPagBtABQB2XgDxLPpetx2ssmba5IRt7YCHscmuzCVnGfK9mb0KjjI3fF/ge51PULnV9MkidJE8ww/xMe+31rXE4WUpOcTarQcnzRPM5opIJmilRo5FOGVhgg+9edaxxtW3GUCCgAoAKAFJycmgBKANzwz4fvddv9truRYx80g4x+Nb0KUqktDSnTlN6GXfWU2n3s1pcIVliYqw+lZSi4uzIaadmQAEnABP0qRG5pWsz6Fpplsii3M02S+QSFUcDH1JP4Ct6dV043juzWM3BaHoPwz1i+1u91N9QvzJ91lgbtkk5HoO2PcV34KpKo5OTOrDTcm7sz/H/iSIjUdHmsmSUMvls2CGB53j0xj9fapxeIXK6bWosRVVnBo8xryzhCgAoAKACgAoAKACgDoPCVjpGp6lJZas7RCaPbBIH27Xzx7fnW9CMJS5ZmtKMZO0jpb34UzwW0slvqizSqCViaDZuPpnca3lgnbRmzwrS0Z588UkErRyKUkQlWUjBBrhaadmctrHt3gy6W/8JWbjfmEGJi3qDXr0Z3pJo9GjK8EY3xE8OW1zpkusQpsuoMeaR0denPv0rDE01KPP1M8RTTXMtzyavPOEKACgAoAKANbS/D17qgEiKI4f+ej5wfYYzXRSw06mq2NqdGU9Uez6DpkWjaXFa2zQqowzZBJJPXnNepCEYR5UjvhBQjZGH8QoNCGnCe7tN92TxJbyojj6g9R+BrHFqHJeS1MMQoWu1qeUxzW9vAskfmm73ZBOAqDn8Seh7V5iaSutziukVWdnYszEk8kmobuIfBcTWsolt5XikXoyMQRTTad0NNrVEt5fXep3Imu5nnm2qm5uSQBgU5TlN3k7sbk5O7K1SSFABQAUAFABQAUAFADo1LyBQQCTwScD86EM9E8F+Lrqa/j0fV389GxHAzKDtI6AnHP1ruw+IlzcsmdVCs78sjp/E/w9sNbje7siLW+xn5R8kn1HY+9dVfCxqrmWjN6tBT1W5y3gLUr/AEvWJtAulk2PnETA/I478DpXJh6vspOFR2RhQcoy5Gdp4q0W6vPDV7FbqHlZBsjQtk4I45OPXtXfXXNSaR1Vo3g0jwqWJ4ZWjkUo6nDAjoa8Rpp2Z5bQSeX8vllzx824d/b2odugEk9xLdhGkKfuo1jUKgX5R0zgc/U8023LcG7iWtrNe3UVtbpvmlYIi5xkmiMXJqK3YJXdkdvpXwv1SS4ifU3ht4AwLoH3OR6DHH610xwkr+8dEcNK/vHp8dvBaW0cFvEkcMQwiDsK7orojsiraImiGAM9Kpu5TPC/GcdxH4svxcBgTJlcjgr2x7V5eJv7V3PMqpqbuYNYGYUAFAC5wRjg0AOjhkl3eXGz7RubaM4Hqadmx2GUhBQAUAFABQAUAFABQBasooJvNSW4MDhd0bH7pI7H/Gqik93YpJM9W+GWv3GoWM9ndzvNJbsChdsnbXpYOrKSs9bHbhqjaszvTaxPKZViQSH/AJaBRk11TpRqK0kdNtbjSzqSp4PYnoa5Y0KtGXuO8fPoHN3PHfH3hUaPOdSS4DJdTN+62429+vevOqyi5txa17HDiKXL73c4cLkn0HU1BynT+ANEtde8TLb3q74I4mlZM43YwAPzNdOEpRqVLSNqEFOdmemW/wAPtHs9VhvbeGaN4WJCq/yn355r0lhacZKUVZo7Vh4KSkjoGSRAcFiOo3nJ/Oqm02aMZglgW6Z6VGi2ETBQ3sBT6DPKPiC2g3l7NPBqTf2lHhJISjFWx6HGAa4MT7Nu6epxV+Ru6epyujaBc6xIu144YC20zSsABxn8fwrnp0nP0MIQcjRufA9/DzFd2E4JIG24A/nireHl0aLdFrqLD4PnsXN1rzpaafFhnZJFd5PRVAJ5Pr261UcO071NECotaz0RzDlS7FV2qTwM5wK5mYnXWmi2b+CxqP2l0nXzN6RN8z9AFIz06E11KnH2XNfU3UVyXOQrlMAoAKACgAoAKACgAoAKANazvNQ0l7fVrRjEhbaNjcHGMhsevvWsZSg1OJaco+8j2/QNZl1vSoLyIxp5g+ZDztPpXsUqinFM9OnNTjc1blbl7CVI9v2hkwOcDmnVUnCSjudFBwVROexx3xItXl8JDCh3jmTtkjgjivAknGSptao5MWrxbXc8ZIKkgggjqDQeabXhDU49H8U2N5KcRqxV+ccMpXn6Zz+Fb4eahVTZpSlyzTPeLTUo7yzjuLaRZYZBlXU5Br1lV00PRU7q6JJn3sMAjj1olK42xFjz94/Skl3Ar6lq1lo2nyXd24jRBxnufQDvT54QV5ClOMVdnzvfTJcX9xNGWKSSMw3dcE14s2nJtHlSd3c6bWPCOrWegadOU81Ap3RpklCxJ6fSuipQmoRZtOlJRTIJPBN9a2qz38kVsGZVRC253Ldgo7/Wp+rSSvLQToySuzCv4Zbe+lt5GkcxHaC4OcduO1ZTTUrMzkrOxVqCS9diD7JAYIZkXGd0n8TfxY9quVraFO1iPTpIor2Np7eOeMnaUkYhee5I5optKWquJbnd6b8OP7SnknuLy1iiIyIbRt+38T2rrjhLu7f3HTDD82rZ51XCcoUAFABQAUAFABQBKk7rGYixMROSmeM+tNPoO52/gHxDFoeovpt04MFyQUkDfKpxXXhqvs5cr6nRQqcj5WeyxSeYgYEV6qdz0CO4RsYSLf3OSBn86xqYaMpKotJIDwnxQljfeIDNayrC88pWeN8ARODgnPp3zXnV4wlO6e+55tVRctDH1WyhsL94ILuO7iABWaPoQRmuepFRlZO5nJJOydz0zwh400Sw8KWtnf3Oy4hDAjZ23HH14r0aNekqSUnqddKtBQszsjrWki1juDfQrHKAVLOMnPSum8LXub88bXuWkurdwGikWUjqsZDHHrVwjcpWex5v8V9QSWGxsxFIp3GUFhgelcWPdkonLi3sjz7RrEalrFrZs6oJHwSxwMdTXBTjzTUTlhHmkke16p4gj0IWEUlnJILhliRoyGGelexUnGlbrc9Gc1CxwvxI0O6ivhqyTPLayAAh2/1Z9APTpXDi6b5ufocuIg0+Y4aC7mtpGeJ8My7SSAePx+lcak1qjmTaLNpY6hrUpjtYGneMFiEUDAJqkpT0Q1Fy2JLLTNQ1J3s0cL9nyTHNLtCkdcA/jTjCUtOw1Fy0LyaDqlpazmKO1uEeMlwjq7KPUdxVKnKKZXJJIb4T1W70rVSbW5hgaUbD5ykq3oDRRm4y0YUpOL0MCsTIKACgAoAKACgAoAKACgD0Twb8Qm06KPTdUJNuvyxzdSvsa7sPi+Vcstjro4jl92R6/bTxXNuksUiujDIZTwRXqxaaudyd1c+bNYjgj1m8S2YtAJnEbH+IZPNfOPc8mdlJ2KNIkM0ABcngkn8aYGjpOvahorzPYzGNpU2MTzx7VpTqzp35SoTlHYr3mp3moKi3dw82wkgucnnrSlUlJWbE5N7lZM7xhivPUdqhEnfeL3u7TwjoEUkjl1G5ZAMdAMc16OK92lBdTrraU4m1Z6ppvi/w6tlewF5be1815W4IkAwSo7+taQlCtC0lsilNVI2Z5O4w5A6Z4ryjiJbW8ubKXzLaZ4nIxuQ44pptbDTa2GefNudvMfc/3jnk/Wi7C4Qzy28m+GRo29VOKE2tgTsM3HO7vnOaQhKACgAoAKACgAoAKACgAoAKANvRPEF7YX1opvZYrRGCyKCcFM5I/nWsKs46RdjWnUcWtdD1XS9F8M6/p5ntAZrMK6eUy/6tjySPQ/413wwlCqnKNz1FOlVglyrQ47WfhnqC3IbSY/NgZclZHAKnPSsamAkn7jucVXDPmvDYr6d8MNdvY5WmEVqyY2q5zv59qUMDUktdDOOGm9zP1HwFr2mf663iKE4DiUAH88VEsHVj0E8PUXQ5+6s5rO48icKr4B4YEfmK55QcXZmTi07MidDG5U4yPQ5pNWJG0gJ5Lq4uVCzTyOFxjexIAqnJvdjbb3GRzywFjFIybgVJU4yPSkm1sF7DM5FIQlABQAUATKs0AjuNhCk/IxHBIqkmveH5kNSIKACgAoAKACgAoAKACgAoAKAJYbq4t2BhnkjIORtYjmmpNbMabWxtx+N/EcYQLqs+E6ZOc/X1rdYqqupp7ap3N7TfivrFqmy8gguh/fI2t+nFbwx818SuaxxUlvqXdQ+KFlq1qbW90MyRMeQZu35daqeNjNWlHQp4pSVmjntZv/CupSWzWtnc2WARKIwv4fX9KwqTozasrGU5U5WsrGfYaNY36KRq8MDtIVCTDG1R3J6VnGnGSvzERhF9S3qWh6DaQEweIUlnRMtGIiwZvQEcAVc6VJL3Z6jlCC6lWy0nSbi23T69FbzH7qNAxH4kVEacGtZCjCLWrKjWVjbzqs2oLNGVJLWyE89h82Knlgnq/uFZLqNjtraeVo7Zbq4cjCIiDJPr3oUYt2jdiSTdka8ugHTLKQXd/pqO4BKEF5QD6DHBraVB04+80auk4L3mjnJAiyMI2LID8rEYyPpXKzETI2gYGR39aBFu/wBSuNQMPnEbYYxGigYAAq5zctynJsp1BIUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAOjkaKRZEOGUgg+9CdtRm3eeIxqWkG1v7GGW7U/urtAEZR6EAc1vKtzxtJa9zR1OaNmtTDVSzBRjJOOTisDI6iy8Xf2N4fGm6ZaRx3ThhNen7xJPG30wOOa6o4j2cOSC17m8a3JHlicuzM7FmJJPcmuUwEoAKAHxwyzEiKN3IGTtUnAppN7DGUhBQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQBc0y/m069WeARlyNv7xA4wfY8VcJuEroqLad0elaZpV/c+KxMNVMJNvGzrHbqFZTztx0/HFelThL2t1LodUYtz3P/9k=</Data></Thumbnail></Binary></metadata>\r\n"
+    }
+  ],
+  "elevationSurfaces" : [
+    {
+      "type" : "CIMMapElevationSurface",
+      "elevationMode" : "BaseGlobeSurface",
+      "name" : "Ground",
+      "verticalExaggeration" : 1,
+      "mapElevationID" : "{034E24AA-5178-4456-BFEE-4DB57FCED65C}",
+      "color" : {
+        "type" : "CIMRGBColor",
+        "values" : [
+          255,
+          255,
+          255,
+          100
+        ]
+      },
+      "surfaceTINShadingMode" : "Smooth"
+    }
+  ]
+}
